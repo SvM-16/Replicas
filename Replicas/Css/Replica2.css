@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red{
+    display: flex;
+}
+
+.red1{
+    background-color: red;
+    width: 1000px;
+    height: 145px;
+    margin: 10px 0px 0px 10px;
+}
+
+.red2{
+    background-color: red;
+    width: 500px;
+    height: 145px;
+    margin: 10px 10px 0px 10px;
+}
+
+.nara-mora{
+    display: flex;
+}
+
+.naranja{
+    background-color: orange;
+    width: 50%;
+    height: 300px;
+    margin: 10px 0px 0px 10px;
+}
+
+
+.morado{
+    width: 50%;
+    margin: 0px 20px 0px 0px;
+}
+.morado1{
+    background-color: rgb(211, 44, 155);
+    width: 100%;
+    height: 145px;
+    margin: 10px;
+}
+
+.blue{
+    display: flex;
+    width: 100%;
+}
+
+.blue1{
+    background-color:rgb(44, 116, 211);
+    width: 30%;
+    height: 125px;
+    margin: 0px 10px 10px 10px;
+}
+
+
+.blue-centro{
+    width: 40%;
+    background-color:rgb(44, 116, 211);
+    height: 125px;
+    margin: 0px 3px 10px 3px;
+}
+
+
+@media screen and (max-width:600px) {
+    .red{
+        display: flex;
+        display: inline-block;
+    }
+
+    .red1, .red2{
+        width: 563px;
+    }
+}
